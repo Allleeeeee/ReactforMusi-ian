@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "ты",
+      "artist": "Volpiano",
+      "coverImage": "./img//alb3.jpg",
+      "audioFile": "music/Lan.mp3"
+    },
+    {
+      "id": 2,
+      "title": "давай расскажем",
+      "artist": "Volpiano",
+      "coverImage": "./img/alb2.jpg",
+      "audioFile": "music/Del.mp3"
+    },
+    {
+        "id": 3,
+        "title": "больше буду",
+        "artist": "Volpiano",
+        "coverImage": "./img/alb1.jpg",
+        "audioFile": "music/Lan.mp3"
+      },
+
+      {
+        "id": 4,
+        "title": "утонуть",
+        "artist": "Volpiano",
+        "coverImage": "./img/alb4.jpg",
+        "audioFile": "music/Del.mp3"
+      },
+      {
+        "id": 5,
+        "title": "sad girl",
+        "artist": "Volpiano",
+        "coverImage": "./img//alb3.jpg",
+        "audioFile": "music/Lan.mp3"
+      },
+      {
+        "id": 6,
+        "title": "art deco",
+        "artist": "Volpiano",
+        "coverImage": "./img/alb2.jpg",
+        "audioFile": "music/Del.mp3"
+      },
+      {
+          "id": 7,
+          "title": "метро",
+          "artist": "Volpiano",
+          "coverImage": "./img/alb1.jpg",
+          "audioFile": "music/Lan.mp3"
+        },
+  
+        {
+          "id": 8,
+          "title": "прости меня, моя любовь",
+          "artist": "Volpiano",
+          "coverImage": "./img/alb4.jpg",
+          "audioFile": "music/Del.mp3"
+        }
+      
+  ]
+ 

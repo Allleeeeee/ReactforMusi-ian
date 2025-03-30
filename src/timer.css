@@ -1,0 +1,29 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#clock {
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    text-align: center;
+    position:relative;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgb(189, 64, 211),  0 0 20px rgba(223, 10, 230, 0);
+    
+   
+  
+    .text {
+        letter-spacing: 0.05em;
+        font-size: 30px;
+        padding: 20px 0 0;
+    }
+    .time1 {
+        letter-spacing: 0.01em;
+        font-size: 70px;
+        padding: 5px 0;
+    }
+}

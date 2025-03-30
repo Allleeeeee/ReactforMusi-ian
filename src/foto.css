@@ -1,0 +1,145 @@
+.choise_of_number{
+ background-color: rgb(65, 28, 100);
+ opacity: .8;
+  width: 57%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  box-shadow: rgba(65, 28, 100, 0.651) 0 3px 15px;
+}
+  .glavn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 800px;
+    border-radius: 15px;
+
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .vtorichn img {
+    margin-bottom: 20px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 1%;
+  }
+  
+  .vtorichn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-flow: row;
+    margin-bottom: 40px;
+  }
+  
+  .choise_of_number {
+    flex-flow: column;
+  }
+  
+
+ 
+  @media screen and (min-width: 240px) and (max-width: 500px) {
+    .choise_of_number{
+       
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .vtorichn img {
+        margin-bottom: 20px;
+        width: 130px;
+        border-radius: 5px;
+        margin-left: 3%;
+      }
+    .glavn {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .vtorichn {
+      margin-left: 10%;
+      display:block
+    }
+
+  }
+  @media (max-width: 599px) and (min-width: 501px) {
+    .vtorichn img {
+        margin-bottom: 20px;
+        width: 70px;
+        border-radius: 5px;
+        margin-left: 1%;
+      }
+    .choise_of_number{
+      
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .glavn {
+      width: 80%;
+      margin-left: 10%;
+    }
+  
+  
+
+  }
+  @media (max-width: 768px) and (min-width: 600px) {
+    .choise_of_number{
+       
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .glavn {
+      width: 80%;
+      margin-left: 10%;
+    }
+  
+ 
+ 
+
+  }
+  @media (max-width: 1000px) and (min-width: 769px) {
+    .vtorichn {
+       
+        width: 100%;
+    }
+    .glavn {
+    margin-left: 0%;
+      width: 80%;
+    }
+    .choise_of_number {
+      display: grid;
+      place-items: center;
+    }
+  }
+  @media (max-width: 1345px) and (min-width: 1001px) {
+  
+    .vtorichn {
+      
+        width: 100%;
+    }
+    .glavn {
+        
+      width: 60%;
+    }
+    .choise_of_number {
+      display: grid;
+      place-items: center;
+    }
+  }
+  @media (max-width: 1700px) and (min-width: 1346px) {
+  
+    .vtorichn {
+       
+        width: 100%;
+    }
+    .glavn {
+        
+      width: 80%;
+    }
+    .choise_of_number {
+      display: grid;
+      place-items: center;
+    }
+  }

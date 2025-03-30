@@ -1,0 +1,36 @@
+
+.concert-block {
+    width: 75%;
+    background-color: #8b6bed;
+    border-radius: 5px;
+    padding: 20px; 
+    margin: 16px auto;
+    text-align: center; /* Выравнивание текста по центру */
+    display: flex; /* Используем flex-контейнер */
+    justify-content: space-between; /* Распределение места между элементами */
+    align-items: center; /* Выравнивание элементов по центру */
+  }
+  
+  .concert-block h1,h2 {
+    font-size: 18px;
+    color: #ecebeb;
+  }
+
+  .concert-block button {
+    background-color: #ea00ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    height: 70px;
+  }
+  
+  .concert-block button:hover {
+    background-color: #6200b3;
+  }
+  
+  .maincon :hover {
+    background-color: #f388e5;
+  }
+  

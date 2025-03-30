@@ -1,0 +1,78 @@
+.songList{
+  background-color: rgba(229, 192, 247, 0.836);
+  border-radius: 10px;
+}
+#trt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.songList{
+  height: 420px;
+  margin-left: 10px;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+.component {
+    font-family: sans-serif;
+    text-align: center;
+    
+  }
+.title{
+  color: #e270f1;
+}
+  .component {
+    background-color: rgba(109, 47, 135, 0.539);
+    width: 25%;
+    max-width: 600px;
+    padding-bottom: 2em;
+    border-radius: 10px;
+  }
+  
+  .musicCover {
+    border-radius: 10%;
+  }
+  
+  .playButton {
+    background: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .subTitle {
+    margin-top: -1em;
+    color: #e7b3ee;
+  }
+  
+  .time {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: #d852bb;
+    font-size: smaller;
+  }
+  
+  .timeline {
+    width: 80%;
+    background-color: #5b27ae;
+  }
+  
+  input[type="range"] {
+    background-color: #8c27ae;
+  }
+  @media (max-width: 1200px) {
+    .component {
+      width: 50%;
+    }
+  }
+  @media (max-width: 700px) {
+    .component {
+      width: 70%;
+    }
+  }
+  .musicCover{
+    width: 200px;
+  }
